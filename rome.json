@@ -1,0 +1,47 @@
+{
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentSize": 2,
+    "formatWithErrors": false,
+    "lineWidth": 80,
+    "ignore": [
+      "dist/**/*",
+      "node_modules/**/*"
+    ]
+  },
+  "javascript": {
+    "formatter": {
+      "semicolons": "always",
+      "quoteStyle": "single",
+      "quoteProperties": "asNeeded",
+      "trailingComma": "es5"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "ignore": [
+      "dist/**/*",
+      "node_modules/**/*"
+    ],
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "noUnusedVariables": "off"
+      },
+      "nursery": {
+        "noUselessCatch": "off",
+        "useExhaustiveDependencies": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off",
+        "noArrayIndexKey": "off"
+      },
+      "style": {
+        "noNonNullAssertion": "off",
+        "noShoutyConstants": "off",
+        "useTemplate": "off"
+      }
+    }
+  }
+}

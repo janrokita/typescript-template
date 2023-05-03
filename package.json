@@ -1,0 +1,27 @@
+{
+  "name": "typescript_template",
+  "version": "1.0.0",
+  "description": "A starter template for typescript projects.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc && tsc-alias",
+    "start": "node ./dist/index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "rome check src",
+    "lint:format": "rome format src --write"
+  },
+  "keywords": [],
+  "author": "Jan Rokita <jan@rokita.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "rimraf": "^5.0.0",
+    "rome": "^12.0.0",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.8.6",
+    "typescript": "^5.0.4"
+  }
+}
