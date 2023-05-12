@@ -4,7 +4,7 @@
 		"source.organizeImports.rome": true
 	},
 	"[javascript][javascriptreact][typescript][typescriptreact]": {
-		"editor.defaultFormatter": "rome.rome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[json][jsonc][markdown]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
